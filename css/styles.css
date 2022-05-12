@@ -32,6 +32,7 @@ ul label{
 .bliss{
     color:red;
     font-size: 30px;
+    /* Banner Section */
 }
 .list{
     text-align: left;
@@ -53,11 +54,13 @@ ul label{
 .list .btn{
     font-weight: bolder;
 }
+/* Store Section */
 .clone{
-    color: red;
+    color: white;
     font-weight: bold;
-    background-color: wheat;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.trice{
-   background-color: white;
+.trice label{
+   font-size: 50px;
 }
