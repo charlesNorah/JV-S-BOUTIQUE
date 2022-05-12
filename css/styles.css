@@ -16,32 +16,48 @@ body{
 }
 .nav-link:hover{
     color: white;
-   background-color: lightcoral;
+   background-color:lightcoral;
 }
 .banner{
-    background-image: url(../images/blog-luxury-shopping-1.jpg);
+    background-image: url(../images/blog-luxury-shopping-1\ replace.jpg);
     background-size: cover;
     height: 600px;
 }
 ul label{
-    margin-right:25%;
+    margin-right:40%;
     font-weight: bolder;
     text-shadow: 1px 1px black;
     font-size: 25px;
 }
-b{
+.bliss{
     color:red;
+    font-size: 30px;
 }
-.bou h1{
-    text-align: center;
-    margin-top: 3%;
-    font-size: 150px;
-    color: black;
+.list{
+    text-align: left;
+    margin-top: 14%;
+    font-weight: bolder;
+    margin-left: 5%;
+}
+.list .one{
+    font-size: 60px;
+    color: white;
+    font-family: sans-serif;
+    text-shadow: 1px 1px black;
+    
+}
+.list .two{
+    font-size: 30px;
+    color: crimson;
+}
+.list .btn{
     font-weight: bolder;
 }
-.bou i{
-    color: deeppink;
-    font-weight: bolder;
-    text-shadow: 1px 1px deeppink;
-
+.clone{
+    color: red;
+    font-weight: bold;
+    background-color: wheat;
+}
+.trice{
+   background-color: white;
 }
