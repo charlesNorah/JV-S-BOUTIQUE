@@ -21,7 +21,7 @@ body{
 .banner{
     background-image: url(../images/blog-luxury-shopping-1\ replace.jpg);
     background-size: cover;
-    height: 600px;
+    height: 650px;
 }
 ul label{
     margin-right:40%;
@@ -55,12 +55,6 @@ ul label{
     font-weight: bolder;
 }
 /* Store Section */
-.clone{
-    color: white;
-    font-weight: bold;
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-.trice label{
-   font-size: 50px;
+.trice{
+   border-color: red;
 }
