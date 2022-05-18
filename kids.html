@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE JV'S BOUTIQUE</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <!-- This is a Nav Section -->
+    <ul class="nav nav-pills bg-dark justify-content-center fixed-top ">
+        <label for=""> <b class="bliss"> JV'S </b> BOUTIQUE</label>
+        <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">STORE</a>
+            <ul class="dropdown-menu bg-dark">
+                <li class="dropdown-item"><a href="shop.html" class="nav-link">Women Clothing</a></li>
+                <li class="dropdown-item"><a href="male.html" class="nav-link">Men Clothing</a></li>
+                <li class="dropdown-item"><a href="kids.html" class="nav-link">Kids</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a href="" class="nav-link">TEAM</a></li>
+        <li class="nav-item"><a href="" class="nav-link">ABOUT</a></li>
+        <li class="nav-item"><a href="" class="nav-link">CONTACT</a></li>
+    </ul> <br> <br>
+
+    <!-- <div class=" col-2 px-sm-2 px-0 bg-dark position-fixed" id="sticky-sidebar trice">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <a href="/"
+                class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                <span class="fs-5 d-none d-sm-inline">Menu</span>
+            </a>
+            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                id="menu">
+                <Label>CLOTHES</Label>
+                <li class="nav-item">
+                    <a href="#" class="nav-link align-middle px-0">
+                        <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">DINNER GOWNS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi-speedometer2"></i> <span
+                            class="ms-1 d-none d-sm-inline">Dashboard</span> </a>
+                    <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span> 2
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Orders</span></a>
+                </li>
+                <li>
+                    <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                        <i class="fs-4 bi-bootstrap"></i> <span
+                            class="ms-1 d-none d-sm-inline">Bootstrap</span></a>
+                    <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span>
+                                1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Item</span>
+                                2</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Products</span> </a>
+                    <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                        <li class="w-100">
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span>
+                                1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span>
+                                2</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span>
+                                3</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span>
+                                4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-link px-0 align-middle">
+                        <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span>
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <div class="dropdown pb-4">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30"
+                        class="rounded-circle">
+                    <span class="d-none d-sm-inline mx-1">loser</span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+
+
+    <div class="container-fluid position-fixed treal" id="sticky sidebar">
+        <div class="row">
+            <div class="col-2 ">
+                <div class="container-fluid">
+                    <table>
+                        <tr>
+                            <th><b>CLOTHES</b></th>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#kts" class="btn btn-sm btn-outline-default">T-SHIRTS</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#kt" class="btn btn-sm btn-outline-default">JEANS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#skirt" class="btn btn-sm btn-outline-default">SKIRTS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#short" class="btn btn-sm btn-outline-default">SHORTS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#nightwear" class="btn btn-sm btn-outline-default">NIGHTWEARS</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#overall" class="btn btn-sm btn-outline-default">OVERALL</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#joggers" class="btn btn-sm btn-outline-default">JOGGERS</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#polos" class="btn btn-sm btn-outline-default">POLOS</td>
+                        </tr>
+                    </table> <br>
+                    <table>
+                        <tr>
+                            <th><b>ACCESSORIES</b></th>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#smart" class="btn btn-sm btn-outline-default">WRISTWATCH</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#wrist" class="btn btn-sm btn-outline-default">SMARTWATCH</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#toys" class="btn btn-sm btn-outline-default">TOYS</td>
+                        </tr>
+                    </table>
+                    <table> <br>
+                        <tr>
+                            <th><b>FOOTWEARS</b></th>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#sandals" class="btn btn-sm btn-outline-default">SANDALS</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#sneakers" class="btn btn-sm btn-outline-default">SNEAKERS</td>
+                        </tr>
+                        <tr>
+                            <td><a href="kids.html#sch shoes" class="btn btn-sm btn-outline-default">SCHOOL SHOES</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <th><a href="" class="btn btn-sm btn-outline-light"><b>NEW ARRIVALS!!!</b></a></th>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- This is the store section -->
+
+    <div class="container-fluid stress">
+        <div class="container-fluid" id="kts">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kts 1.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="320px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kts 2.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="320px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kts 3.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="320px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> <br> <br> <br>
+
+
+
+
+        <div class="container-fluid" id="kt">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kt 1.jpg" alt="" class="bd-placeholder-img" height="350px" width="350px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kt 2.webp" alt="" class="bd-placeholder-img" height="350px"
+                                width="350px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/kt 3.jpeg" alt="" class="bd-placeholder-img" height="350px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div> <br> <br> <br>
+
+
+
+
+
+        <div class="container-fluid" id="skirt">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k skirt 1.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k skirt 2.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k skirt 3.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div> <br> <br> <br>
+
+
+
+
+        <div class="container-fluid" id="short">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k short 1.jpg " alt="" class="bd-placeholder-img" height="280px"
+                                width="350px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k short 2.jpg" alt="" class="bd-placeholder-img" height="280px"
+                                width="350px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/k short 3.jpg" alt="" class="bd-placeholder-img" height="280px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div> <br> <br> <br>
+
+
+
+        <div class="container-fluid" id="nightwear">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/night 1.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/night 2.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/night 3.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="300px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div> <br>> <br> <br>
+
+
+
+
+        <div class="container-fluid" id="overall">
+            <div class="row">
+                <div class="col-3 col-md-3 col-xl-2">
+                </div>
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/overall 1.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="280px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="../JVBOUTIQUE/images/overall 2.jpg" alt="" class="bd-placeholder-img"
+                                height="350px" width="280px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 col-md-3 col-sm-3">
+                    <div class="carousel-inner">
+                        <div class="carousl-item">
+                            <img src="./images/overall 3.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                width="280px">
+                            <div class="container">
+                                <div class="carousel-caption text-center">
+                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <br> <br> <br>
+
+
+
+            <div class="container-fluid" id="joggers">
+                <div class="row">
+                    <div class="col-3 col-md-3 col-xl-2">
+                    </div>
+                    <div class="col-3 col-md-3 col-sm-3">
+                        <div class="carousel-inner">
+                            <div class="carousl-item">
+                                <img src="./images/jogger 1.webp" alt="" class="bd-placeholder-img" height="350px"
+                                    width="350px">
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 col-md-3 col-sm-3">
+                        <div class="carousel-inner">
+                            <div class="carousl-item">
+                                <img src="./images/jogger 2.jpeg" alt="" class="bd-placeholder-img" height="350px"
+                                    width="350px">
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-3 col-md-3 col-sm-3">
+                        <div class="carousel-inner">
+                            <div class="carousl-item">
+                                <img src="./images/jogger 3.jpg" alt="" class="bd-placeholder-img" height="350px"
+                                    width="350px">
+                                <div class="container">
+                                    <div class="carousel-caption text-center">
+                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <br> <br> <br>
+
+
+
+                <div class="container-fluid" id="polos">
+                    <div class="row">
+                        <div class="col-3 col-md-3 col-xl-2">
+                        </div>
+                        <div class="col-3 col-md-3 col-sm-3">
+                            <div class="carousel-inner">
+                                <div class="carousl-item">
+                                    <img src="./images/polo 1.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                        width="300px">
+                                    <div class="container">
+                                        <div class="carousel-caption text-center">
+                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 col-md-3 col-sm-3">
+                            <div class="carousel-inner">
+                                <div class="carousl-item">
+                                    <img src="./images/polo 2.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                        width="300px">
+                                    <div class="container">
+                                        <div class="carousel-caption text-center">
+                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-3 col-md-3 col-sm-3">
+                            <div class="carousel-inner">
+                                <div class="carousl-item">
+                                    <img src="./images/polo 3.jpg" alt="" class="bd-placeholder-img" height="300px"
+                                        width="300px">
+                                    <div class="container">
+                                        <div class="carousel-caption text-center">
+                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <br> <br> <br>
+
+
+
+
+                    <div class="container-fluid" id="sandals">
+                        <div class="row">
+                            <div class="col-3 col-md-3 col-xl-2">
+                            </div>
+                            <div class="col-3 col-md-3 col-sm-3">
+                                <div class="carousel-inner">
+                                    <div class="carousl-item">
+                                        <img src="./images/san 1.jpg" alt="" class="bd-placeholder-img" height="250px"
+                                            width="300px">
+                                        <div class="container">
+                                            <div class="carousel-caption text-center">
+                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-sm-3">
+                                <div class="carousel-inner">
+                                    <div class="carousl-item">
+                                        <img src="../JVBOUTIQUE/images/san 2.jpg" alt="" class="bd-placeholder-img"
+                                            height="250px" width="300px">
+                                        <div class="container">
+                                            <div class="carousel-caption text-center">
+                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3 col-md-3 col-sm-3">
+                                <div class="carousel-inner">
+                                    <div class="carousl-item">
+                                        <img src="./images/san 3.jpg" alt="" class="bd-placeholder-img" height="250px"
+                                            width="300px">
+                                        <div class="container">
+                                            <div class="carousel-caption text-center">
+                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> <br> <br> <br>
+
+
+
+                        <div class="container-fluid" id="sneakers">
+                            <div class="row">
+                                <div class="col-3 col-md-3 col-xl-2">
+                                </div>
+                                <div class="col-3 col-md-3 col-sm-3">
+                                    <div class="carousel-inner">
+                                        <div class="carousl-item">
+                                            <img src="./images/k snea 1.webp" alt="" class="bd-placeholder-img"
+                                                height="250px" width="300px">
+                                            <div class="container">
+                                                <div class="carousel-caption text-center">
+                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-3 col-md-3 col-sm-3">
+                                    <div class="carousel-inner">
+                                        <div class="carousl-item">
+                                            <img src="./images/k snea 2.jpg" alt="" class="bd-placeholder-img"
+                                                height="250px" width="300px">
+                                            <div class="container">
+                                                <div class="carousel-caption text-center">
+                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-3 col-md-3 col-sm-3">
+                                    <div class="carousel-inner">
+                                        <div class="carousl-item">
+                                            <img src="./images/k snea 3.jpeg" alt="" class="bd-placeholder-img"
+                                                height="250px" width="300px">
+                                            <div class="container">
+                                                <div class="carousel-caption text-center">
+                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <br> <br> <br>
+
+
+                            <div class="container-fluid" id="sch shoes">
+                                <div class="row">
+                                    <div class="col-3 col-md-3 col-xl-2">
+                                    </div>
+                                    <div class="col-3 col-md-3 col-sm-3">
+                                        <div class="carousel-inner">
+                                            <div class="carousl-item">
+                                                <img src="./images/sch shoe 1.jpg" alt="" class="bd-placeholder-img"
+                                                    height="250px" width="300px">
+                                                <div class="container">
+                                                    <div class="carousel-caption text-center">
+                                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 col-md-3 col-sm-3">
+                                        <div class="carousel-inner">
+                                            <div class="carousl-item">
+                                                <img src="./images/sch shoe 2.jpg" alt="" class="bd-placeholder-img"
+                                                    height="250px" width="300px">
+                                                <div class="container">
+                                                    <div class="carousel-caption text-center">
+                                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-3 col-md-3 col-sm-3">
+                                        <div class="carousel-inner">
+                                            <div class="carousl-item">
+                                                <img src="./images/sch shoe 3.jpg" alt="" class="bd-placeholder-img"
+                                                    height="250px" width="300px">
+                                                <div class="container">
+                                                    <div class="carousel-caption text-center">
+                                                        <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <br> <br> <br>
+
+
+
+                                <div class="container-fluid" id="smart">
+                                    <div class="row">
+                                        <div class="col-3 col-md-3 col-xl-2">
+                                        </div>
+                                        <div class="col-3 col-md-3 col-sm-3">
+                                            <div class="carousel-inner">
+                                                <div class="carousl-item">
+                                                    <img src="./images/smart 1.jpeg" alt="" class="bd-placeholder-img"
+                                                        height="350px" width="300px">
+                                                    <div class="container">
+                                                        <div class="carousel-caption text-center">
+                                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 col-md-3 col-sm-3">
+                                            <div class="carousel-inner">
+                                                <div class="carousl-item">
+                                                    <img src="./images/smart 2.jpg" alt="" class="bd-placeholder-img"
+                                                        height="350px" width="300px">
+                                                    <div class="container">
+                                                        <div class="carousel-caption text-center">
+                                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-3 col-md-3 col-sm-3">
+                                            <div class="carousel-inner">
+                                                <div class="carousl-item">
+                                                    <img src="./images/smart 3.jpg" alt="" class="bd-placeholder-img"
+                                                        height="350px" width="300px">
+                                                    <div class="container">
+                                                        <div class="carousel-caption text-center">
+                                                            <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <br> <br> <br>
+
+
+
+                                    <div class="container-fluid" id="wrist">
+                                        <div class="row">
+                                            <div class="col-3 col-md-3 col-xl-2">
+                                            </div>
+                                            <div class="col-3 col-md-3 col-sm-3">
+                                                <div class="carousel-inner">
+                                                    <div class="carousl-item">
+                                                        <img src="./images/wrist 1.jpg" alt=""
+                                                            class="bd-placeholder-img" height="350px" width="350px">
+                                                        <div class="container">
+                                                            <div class="carousel-caption text-center">
+                                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-3 col-md-3 col-sm-3">
+                                                <div class="carousel-inner">
+                                                    <div class="carousl-item">
+                                                        <img src="./images/wrist 2.jpg" alt=""
+                                                            class="bd-placeholder-img" height="350px" width="350px">
+                                                        <div class="container">
+                                                            <div class="carousel-caption text-center">
+                                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-3 col-md-3 col-sm-3">
+                                                <div class="carousel-inner">
+                                                    <div class="carousl-item">
+                                                        <img src="./images/wrist 3.jpg" alt=""
+                                                            class="bd-placeholder-img" height="350px" width="350px">
+                                                        <div class="container">
+                                                            <div class="carousel-caption text-center">
+                                                                <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> <br> <br> <br>
+
+
+
+                                        <div class="container-fluid" id="toys">
+                                            <div class="row">
+                                                <div class="col-3 col-md-3 col-xl-2">
+                                                </div>
+                                                <div class="col-3 col-md-3 col-sm-3">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousl-item">
+                                                            <img src="./images/toy 1.jpg" alt=""
+                                                                class="bd-placeholder-img" height="300px" width="350px">
+                                                            <div class="container">
+                                                                <div class="carousel-caption text-center">
+                                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-3 col-md-3 col-sm-3">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousl-item">
+                                                            <img src="./images/toy 2.webp" alt=""
+                                                                class="bd-placeholder-img" height="300px" width="350px">
+                                                            <div class="container">
+                                                                <div class="carousel-caption text-center">
+                                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-3 col-md-3 col-sm-3">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousl-item">
+                                                            <img src="./images/toy 3.jpg" alt=""
+                                                                class="bd-placeholder-img" height="300px" width="350px">
+                                                            <div class="container">
+                                                                <div class="carousel-caption text-center">
+                                                                    <a href="" class="btn btn-sm btn-dark">Purchase</a>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> <br> <br> <br>
+
+
+
+
+
+
+
+                                        </div>
+
+
+
+
+
+
+
+
+
+
+                                        <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

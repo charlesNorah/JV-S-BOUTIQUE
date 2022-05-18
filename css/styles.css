@@ -16,7 +16,7 @@ body{
 }
 .nav-link:hover{
     color: white;
-   background-color:lightcoral;
+   background-color: crimson
 }
 .banner{
     background-image: url(../images/blog-luxury-shopping-1\ replace.jpg);
@@ -49,7 +49,7 @@ ul label{
 }
 .list .two{
     font-size: 30px;
-    color: crimson;
+    color: red
 }
 .list .btn{
     font-weight: bolder;
@@ -57,7 +57,7 @@ ul label{
 /* Store Section */
 /* Women Clothing */
 .stress .btn{
-    background-color: black;
+    background-color: red;
     font-weight: bolder;
     font-size: 15px;
 }
@@ -73,7 +73,7 @@ ul label{
 }
 .anostr th{
     font-weight: bolder;
-    color: lightslategray;
+    color: red
 }
 /* Men clothing */
 .hall .btn{
@@ -83,10 +83,25 @@ ul label{
     text-shadow: 1px 0px black;
 }
 .hall{
-    font-size: 0px;
-    background-color: rgb(15, 12, 12);
+    font-size: 15.5px;
+    background-color: rgb(32, 29, 29)
 }
 .hall th{
     font-weight: bolder;
-    color: lightslategray;
+    color: red
+}
+/* Women clothing */
+.treal .btn{
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    text-shadow: 1px 0px black;
+}
+.treal{
+    font-size: 18.5px;
+    background-color:whitesmoke
+}
+.treal th{
+    font-weight: bolder;
+    color: red;
 }
