@@ -55,6 +55,23 @@ ul label{
     font-weight: bolder;
 }
 /* Store Section */
-.trice{
-   border-color: red;
+/* Men Clothing */
+.stress .btn{
+    background-color: black;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.anostr .btn{
+    font-weight: bolder;
+    color: black;
+    font-style: italic;
+    text-shadow: 1px 0px black;
+}
+.anostr{
+    font-size: 17px;
+    background-color: wheat;
+}
+.anostr th{
+    font-weight: bolder;
+    color: lightslategray;
 }
