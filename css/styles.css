@@ -55,7 +55,7 @@ ul label{
     font-weight: bolder;
 }
 /* Store Section */
-/* Men Clothing */
+/* Women Clothing */
 .stress .btn{
     background-color: black;
     font-weight: bolder;
@@ -72,6 +72,21 @@ ul label{
     background-color: wheat;
 }
 .anostr th{
+    font-weight: bolder;
+    color: lightslategray;
+}
+/* Men clothing */
+.hall .btn{
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 0px black;
+}
+.hall{
+    font-size: 0px;
+    background-color: rgb(15, 12, 12);
+}
+.hall th{
     font-weight: bolder;
     color: lightslategray;
 }
