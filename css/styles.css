@@ -105,3 +105,8 @@ ul label{
     font-weight: bolder;
     color: red;
 }
+.secban{
+    background-image: url(../images/test\ 3.jpg);
+    height: 280px;
+    background-size: 75%;
+}
