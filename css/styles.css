@@ -105,8 +105,22 @@ ul label{
     font-weight: bolder;
     color: red;
 }
+/* New Arrivals */
+.anothers .btn{
+    background-color: red;
+}
+/* Ladies New Arrival Section */
 .secban{
     background-image: url(../images/test\ 3.jpg);
     height: 280px;
     background-size: 75%;
+}
+.secban h2{
+    margin-left: 65%;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.trial{
+    background-image: url(../images/1272027.jpg);
 }
