@@ -121,6 +121,48 @@ ul label{
     color: whitesmoke;
     font-weight: bolder;
 }
-.trial{
-    background-image: url(../images/1272027.jpg);
+.tan img:hover{
+    width: 400px;
+    height: 450px;
+    margin-top: 5px;
 }
+.tan .btn{
+    background-color: black;
+    font-weight: bold;
+}
+.tan p{
+    margin-left: 40%;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.trial{
+    background-color: whitesmoke;
+}
+.nat img:hover{
+    width: 400px;
+    height: 450px;
+    margin-top: 5px;
+}
+.nat .btn{
+    background-color: black;
+    font-weight: bold;
+}
+.nat p{
+    margin-left: 40%;
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menban{
+    background-image: url(../images/m\ wallpaper.jpg);
+    height: 300px;
+    background-size: 80%;
+}
+.menban h2{
+    margin-left: 65%;
+    margin-top: 5%;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
